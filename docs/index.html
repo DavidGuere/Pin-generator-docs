@@ -1,164 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Home - Documentation</title>
-    
-    
+
     <script src="scripts/prettify/prettify.js"></script>
     <script src="scripts/prettify/lang-css.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css" />
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css" />
     <script src="scripts/nav.js" defer></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger" class="navicon-button x">
+      <div class="navicon"></div>
+    </label>
 
-<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-<label for="nav-trigger" class="navicon-button x">
-  <div class="navicon"></div>
-</label>
+    <label for="nav-trigger" class="overlay"></label>
 
-<label for="nav-trigger" class="overlay"></label>
+    <nav>
+      <h2><a href="index.html">Home</a></h2>
+      <h3>Global</h3>
+      <ul>
+        <li>
+          <a href="global.html#generatePinAsInteger">generatePinAsInteger</a>
+        </li>
+        <li>
+          <a href="global.html#generatePinAsString">generatePinAsString</a>
+        </li>
+        <li>
+          <a href="global.html#getDataFromLocalStorage"
+            >getDataFromLocalStorage</a
+          >
+        </li>
+        <li>
+          <a href="global.html#pinIsTooSimpleValidator"
+            >pinIsTooSimpleValidator</a
+          >
+        </li>
+        <li>
+          <a href="global.html#pinIsTooSimpleValidator2"
+            >pinIsTooSimpleValidator2</a
+          >
+        </li>
+        <li>
+          <a href="global.html#pinWasGeneratedValidator"
+            >pinWasGeneratedValidator</a
+          >
+        </li>
+        <li><a href="global.html#saveToLocalStorage">saveToLocalStorage</a></li>
+      </ul>
+    </nav>
 
-<nav >
-    
-    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#generatePinAsInteger">generatePinAsInteger</a></li><li><a href="global.html#generatePinAsString">generatePinAsString</a></li><li><a href="global.html#getDataFromLocalStorage">getDataFromLocalStorage</a></li><li><a href="global.html#pinIsTooSimpleValidator">pinIsTooSimpleValidator</a></li><li><a href="global.html#pinIsTooSimpleValidator2">pinIsTooSimpleValidator2</a></li><li><a href="global.html#pinWasGeneratedValidator">pinWasGeneratedValidator</a></li><li><a href="global.html#saveToLocalStorage">saveToLocalStorage</a></li></ul>
-</nav>
+    <div id="main">
+      <section class="package">
+        <h3></h3>
+      </section>
 
-<div id="main">
-    
-
-    
-
-
-
-    
-
-
-    <section class="package">
-        <h3> </h3>		
-    </section>
-
-
-
-
-
-
-
-
-
-    
-
-
-
-    <section class="readme usertext">
-        <article><h1>Lloyd's Register PIN generator</h1>
-<p>This is a web application that generates random numbers to be used as PIN-s for users.</p>
-<h2>Table Of Contents</h2>
-<ul>
-<li><a href="#demo">Demo</a></li>
-<li><a href="#getting-started">Getting Started</a>
-<ul>
-<li><a href="#Prerequisites">Prerequisites</a></li>
-<li><a href="#installation">Installation</a></li>
-</ul>
-</li>
-<li><a href="#about-the-project">About the project</a></li>
-<li><a href="#technologies">Technologies</a></li>
-<li><a href="#usage">Usage</a></li>
-<li><a href="#roadmap">Roadmap</a></li>
-</ul>
-<h2>Demo</h2>
-<h2>Getting Started</h2>
-<h3>Prerequisites</h3>
-<p>In order to run the project you will need Node installed in your computer.</p>
-<h3>Installation</h3>
-<ul>
-<li>
-<p>Save or clone the repository from https://github.com/DavidGuere/Pin-generator.</p>
-<ul>
-<li>To save the zip file click on the &quot;Code&quot; button and then on &quot;Download ZIP&quot;</li>
-<li>To clone the repository open the terminal in your desired directory and run the <code>git clone</code> command:<pre class="prettyprint source lang-sh"><code>git clone https://github.com/DavidGuere/Pin-generator.git
+      <section class="readme usertext">
+        <article>
+          <h1>Lloyd's Register PIN generator</h1>
+          <p>
+            This is a web application that generates random numbers to be used
+            as PIN-s for users.
+          </p>
+          <h2>Table Of Contents</h2>
+          <ul>
+            <li><a href="#demo">Demo</a></li>
+            <li>
+              <a href="#getting-started">Getting Started</a>
+              <ul>
+                <li><a href="#Prerequisites">Prerequisites</a></li>
+                <li><a href="#installation">Installation</a></li>
+              </ul>
+            </li>
+            <li><a href="#about-the-project">About the project</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#usage">Usage</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+          </ul>
+          <h2>Demo</h2>
+          <h2>Getting Started</h2>
+          <h3>Prerequisites</h3>
+          <p>
+            In order to run the project you will need Node installed in your
+            computer.
+          </p>
+          <h3>Installation</h3>
+          <ul>
+            <li>
+              <p>
+                Save or clone the repository from
+                https://github.com/DavidGuere/Pin-generator.
+              </p>
+              <ul>
+                <li>
+                  To save the zip file click on the &quot;Code&quot; button and
+                  then on &quot;Download ZIP&quot;
+                </li>
+                <li>
+                  To clone the repository open the terminal in your desired
+                  directory and run the <code>git clone</code> command:
+                  <pre
+                    class="prettyprint source lang-sh"
+                  ><code>git clone https://github.com/DavidGuere/Pin-generator.git
 </code></pre>
-</li>
-</ul>
-</li>
-<li>
-<p>Run the following code to install the necessary modules:</p>
-<pre class="prettyprint source lang-sh"><code>npm install
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>Run the following code to install the necessary modules:</p>
+              <pre class="prettyprint source lang-sh"><code>npm install
 </code></pre>
-</li>
-<li>
-<p>Run the <code>npm</code> command to run the project locally in your computer in development mode:</p>
-<pre class="prettyprint source"><code>npm start
+            </li>
+            <li>
+              <p>
+                Run the <code>npm</code> command to run the project locally in
+                your computer in development mode:
+              </p>
+              <pre class="prettyprint source"><code>npm start
 </code></pre>
-</li>
-</ul>
-<h2>About the project</h2>
-<p>This web application randomly generates a 4 digit number to be used as PIN. To application does not generate simple PIN-s such as 1111 or 4444 and does not generate the same PIN for two users.</p>
-<h2>Technologies</h2>
-<ul>
-<li>JavaScript: A high-level programming language.</li>
-<li>React: An open-source, front end, JavaScript library for building user interfaces or UI components.</li>
-<li>HTML: Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser.</li>
-<li>CSS: A style sheet language used for describing the presentation of a document written in HTML.</li>
-</ul>
-<h2>Usage</h2>
-<p>To use the application simply enter a username for the new user and click on &quot;Generate PIN&quot; to generate a new PIN.</p>
-<p>To view all the users and their respective PIN, click on &quot;Show/Hide list of users&quot; and click on it again the close the list.</p>
-<h2>Roadmap</h2>
-<p>Currently the data is only available for a single user and on a single browser. If the user switches to a different browser, the information stored in the other browser will not persist.</p>
-<p>Currently the application does not clear the data stored in the user's browser. To clear the data follow the next steps:</p>
-<ul>
-<li>Chrome:
-<ol>
-<li>Press F12.</li>
-<li>Select “Application” in the console's top menu.</li>
-<li>Select “Local Storage” in the console's left menu.</li>
-<li>Right click your site(s) and click clear to delete the local storage.</li>
-</ol>
-</li>
-<li>Firefox:
-<ol>
-<li>Press F12.</li>
-<li>Select &quot;Local Storage&quot; in the console's top menu.</li>
-<li>Right click your site(s) and click clear to delete the local storage.</li>
-</ol>
-</li>
-<li>Edge:
-<ol>
-<li>Press F12.</li>
-<li>In the console type: <code>localStorage.clear()</code></li>
-</ol>
-</li>
-</ul></article>
-    </section>
+            </li>
+          </ul>
+          <h2>About the project</h2>
+          <p>
+            This web application randomly generates a 4 digit number to be used
+            as PIN. To application does not generate simple PIN-s such as 1111
+            or 4444 and does not generate the same PIN for two users.
+          </p>
+          <h2>Technologies</h2>
+          <ul>
+            <li>JavaScript: A high-level programming language.</li>
+            <li>
+              React: An open-source, front end, JavaScript library for building
+              user interfaces or UI components.
+            </li>
+            <li>
+              HTML: Hypertext Markup Language is the standard markup language
+              for documents designed to be displayed in a web browser.
+            </li>
+            <li>
+              CSS: A style sheet language used for describing the presentation
+              of a document written in HTML.
+            </li>
+          </ul>
+          <h2>Usage</h2>
+          <p>
+            To use the application simply enter a username for the new user and
+            click on &quot;Generate PIN&quot; to generate a new PIN.
+          </p>
+          <p>
+            To view all the users and their respective PIN, click on
+            &quot;Show/Hide list of users&quot; and click on it again the close
+            the list.
+          </p>
+          <h2>Roadmap</h2>
+          <p>
+            Currently the data is only available for a single user and on a
+            single browser. If the user switches to a different browser, the
+            information stored in the other browser will not persist.
+          </p>
+          <p>
+            Currently the application does not clear the data stored in the
+            user's browser. To clear the data follow the next steps:
+          </p>
+          <ul>
+            <li>
+              Chrome:
+              <ol>
+                <li>Press F12.</li>
+                <li>Select “Application” in the console's top menu.</li>
+                <li>Select “Local Storage” in the console's left menu.</li>
+                <li>
+                  Right click your site(s) and click clear to delete the local
+                  storage.
+                </li>
+              </ol>
+            </li>
+            <li>
+              Firefox:
+              <ol>
+                <li>Press F12.</li>
+                <li>
+                  Select &quot;Local Storage&quot; in the console's top menu.
+                </li>
+                <li>
+                  Right click your site(s) and click clear to delete the local
+                  storage.
+                </li>
+              </ol>
+            </li>
+            <li>
+              Edge:
+              <ol>
+                <li>Press F12.</li>
+                <li>In the console type: <code>localStorage.clear()</code></li>
+              </ol>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
 
+    <br class="clear" />
 
+    <footer>
+      Documentation generated by
+      <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> Using the
+      <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+    </footer>
 
-
-
-
-    
-    
-</div>
-
-<br class="clear">
-
-<footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.6</a> on Thu Mar 11 2021 14:30:33 GMT+0100 (közép-európai téli idő) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
-</footer>
-
-<script>prettyPrint();</script>
-<script src="scripts/polyfill.js"></script>
-<script src="scripts/linenumber.js"></script>
-
-
-
-</body>
+    <script>
+      prettyPrint();
+    </script>
+    <script src="scripts/polyfill.js"></script>
+    <script src="scripts/linenumber.js"></script>
+  </body>
 </html>
